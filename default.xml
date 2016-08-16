@@ -533,6 +533,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
- <project path="device/Micromax/E313" name="tandob-mtk/android_device_Micromax_E313" revision="cm-13.0-mt6592" />
+ <project path="device/kingzone/k1_turbo" name="tandob-mtk/android_device_kingzone_k1_turbo" revision="cm-13.0-mt6592" />
  <project path="vendor/Micromax/E313" name="tandob-mtk/android_vendor_Micromax_E313" revision="cm-13.0-mt6592" />
 </manifest>
