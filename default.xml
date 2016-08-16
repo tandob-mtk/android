@@ -30,7 +30,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
 
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="external/sepolicy" name="fire855/android_external_sepolicy-mtk" groups="pdk" revision="cm-13.0-mt6592" />
+  <project path="external/sepolicy" name="tandob-mtk/android_external_sepolicy-mtk" groups="pdk" revision="cm-13.0-mt6592" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="tandob-mtk/android_external_wpa_supplicant_8-mtk" groups="pdk" revision="cm-13.0-mt6592" />
