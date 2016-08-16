@@ -9,19 +9,18 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
            
   <remote  name="tandob-mtk"
            fetch="https://github.com/tandob-mtk/" 
            revision="refs/heads/cm-13.0-mt6592" />
            
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
-           sync-j="6" />
+           sync-j="4" />
 
 <!-- BEGIN MTK -->
   <project path="build" name="tandob-mtk/android_build-mtk" groups="pdk" revision="cm-13.0-mt6592" >
