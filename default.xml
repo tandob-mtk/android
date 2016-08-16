@@ -30,7 +30,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
 
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="external/sepolicy" name="tandob-mtk/android_external_sepolicy-mtk" groups="pdk" revision="cm-13.0-mt6592" />
+  <project path="external/sepolicy" name="fire855/android_external_sepolicy-mtk" groups="pdk" revision="cm-13.0-mt6592" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="tandob-mtk/android_external_wpa_supplicant_8-mtk" groups="pdk" revision="cm-13.0-mt6592" />
@@ -533,6 +533,6 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
- <project path="device/kingzone/k1_turbo" name="tandob-mtk/android_device_kingzone_k1_turbo" revision="cm-13.0-mt6592" />
+ <project path="device/Micromax/E313" name="tandob-mtk/android_device_Micromax_E313" revision="cm-13.0-mt6592" />
  <project path="vendor/Micromax/E313" name="tandob-mtk/android_vendor_Micromax_E313" revision="cm-13.0-mt6592" />
 </manifest>
