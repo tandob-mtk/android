@@ -47,11 +47,14 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
-  
-  <project path="system/bt" name="tandob-mtk/android_system_bt-mtk" groups="pdk" revision="cm-13.0-mt6592" />
   <project path="packages/apps/FMRadio" name="tandob-mtk/android_packages_apps_FMRadio-mtk" groups="pdk-fs" revision="cm-13.0-mt6592" />
   <project path="packages/apps/Settings" name="tandob-mtk/android_packages_apps_Settings-mtk" groups="pdk-fs" revision="cm-13.0-mt6592" />
   <project path="packages/apps/SmartCover" name="tandob-mtk/android_packages_apps_SmartCover-mtk" groups="pdk-cw-fs,pdk-fs" revision="cm-13.0-mt6592" />
+
+  <project path="system/bt" name="tandob-mtk/android_system_bt-mtk" groups="pdk" revision="cm-13.0-mt6592" />
+  <project path="system/core" name="tandob-mtk/android_system_core-mtk" groups="pdk" revision="cm-13.0-mt6592" />
+  <project path="system/netd" name="tandob-mtk/android_system_netd-mtk" groups="pdk" revision="cm-13.0-mt6592" />
+  <project path="system/vold" name="tandob-mtk/android_system_vold-mtk" groups="pdk" revision="cm-13.0-mt6592" />
 <!-- END OF MTK -->
 
 <!-- BEGIN CYANOGENMOD -->
