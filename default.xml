@@ -23,10 +23,10 @@
            sync-j="4" />
 
 <!-- BEGIN MTK -->
-  <project path="build" name="tandob-mtk/android_build-mtk" groups="pdk" revision="cm-13.0-mt6592" >
+  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="tandob-mtk/android-mtk" revision="cm-13.0-mt6592" />
+  <project path="android" name="CyanogenMod/android" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
 
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
