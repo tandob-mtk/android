@@ -23,14 +23,14 @@
            sync-j="4" />
 
 <!-- BEGIN MTK -->
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="tandob-mtk/android_build" groups="pdk" revision="cm-13.0-mt6592" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="tandob-mtk/android-mtk" revision="cm-13.0-mt6592" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
 
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="external/sepolicy" name="ferhung-mtk/android_external_sepolicy" groups="pdk" revision="cm-13.0" />
+  <project path="external/sepolicy" name="tandob-mtk/android_external_sepolicy" groups="pdk" revision="cm-13.0-mt6592" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="tandob-mtk/android_external_wpa_supplicant_8-mtk" groups="pdk" revision="cm-13.0-mt6592" />
