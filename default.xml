@@ -27,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="tandob-mtk/android-mtk" revision="cm-13.0-mt6592" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bionic" name="tandob-mtk/android_bionic-mtk" groups="pdk" revision="cm-13.0-mt6592" />
 
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/sepolicy" name="tandob-mtk/android_external_sepolicy-mtk" groups="pdk" revision="cm-13.0-mt6592" />
